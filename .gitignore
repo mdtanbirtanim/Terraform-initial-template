@@ -1,0 +1,15 @@
+# .tfstate files
+*.tfstate
+*.tfstate*
+
+# Crash log files
+crash.log
+
+# .tfvars file
+*.tfvars
+*.tfvars*
+
+# Ignore CLI configuration files
+.terraform
+.terraformrc.rc
+.terraform.lock.hcl
