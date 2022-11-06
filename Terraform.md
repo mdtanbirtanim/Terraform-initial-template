@@ -20,7 +20,7 @@
 ##### Reference: 
    https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_client_secret
 
-##### To run Terraform code without logging into Azure, type following 
+##### To run Terraform code without logging into Azure, type following (Authentication happens using service principal)
 
     az logout   // logging out from Azure
     az account show -o table  // Check whether you are in Azure
